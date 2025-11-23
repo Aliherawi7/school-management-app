@@ -1,0 +1,6 @@
+ .datebox {
+     font-size: 14px;
+     color: var(--text-color);
+     line-height: 20px;
+     white-space: nowrap;
+ }

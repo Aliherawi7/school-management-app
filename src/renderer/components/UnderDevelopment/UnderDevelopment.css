@@ -1,0 +1,27 @@
+.under_development .container {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.under_development.svg-icon {
+    width: 50%;
+    /* height: 150px; */
+    margin: 0 auto 20px;
+}
+
+.under_development h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: var(--main-color);
+}
+
+.under_development p {
+    font-size: 1.9rem;
+    margin-top: 0;
+    color: #4b5563;
+}

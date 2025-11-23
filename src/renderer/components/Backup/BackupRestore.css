@@ -1,0 +1,74 @@
+/* General styling for the container */
+.backup-restore-container {
+    max-width: 80%px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 80vh;
+}
+
+.backup-restore-container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.backup-restore-container .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.primary:hover {
+    background-color: #0056b3;
+}
+
+.secondary {
+    background-color: #28a745;
+    color: white;
+}
+
+.secondary:hover {
+    background-color: #218838;
+}
+
+.restore-action label {
+    cursor: pointer;
+}
+
+.backup-restore-container input[type="file"] {
+    display: none;
+}
+
+.message {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.message.success {
+    background-color: #28a745;
+    color: white;
+}
+
+.message.error {
+    background-color: #dc3545;
+    color: white;
+}
